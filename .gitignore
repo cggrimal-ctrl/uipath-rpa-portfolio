@@ -20,3 +20,13 @@ desktop.ini
 # Temporary execution data
 Temp/
 Logs/
+
+# UiPath temporary and local files
+**/.local/
+**/.screenshots/
+**/TestResults/
+**/Logs/
+
+# Local user settings
+*.user
+*.suo
