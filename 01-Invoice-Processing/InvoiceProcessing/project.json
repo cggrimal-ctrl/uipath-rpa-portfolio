@@ -4,7 +4,8 @@
   "description": "Automated invoice processing solution",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[3.4.1]",
+    "Autossential.Activities": "[4.0.10]",
+    "UiPath.Excel.Activities": "[3.6.1]",
     "UiPath.IntegrationService.Activities": "[1.36.0]",
     "UiPath.Mail.Activities": "[2.7.12]",
     "UiPath.PDF.Activities": "[4.3.0]",
