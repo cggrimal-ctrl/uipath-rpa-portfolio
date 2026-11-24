@@ -131,7 +131,7 @@
       <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GenerateInvoiceReport" sap:VirtualizedContainerService.HintSize="910.6666666666666,1819.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GenerateInvoiceReport" sap:VirtualizedContainerService.HintSize="1100,1819.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="InvoiceStatus" />
       <Variable x:TypeArguments="upr:ILocalResource" Name="createdWorkbook" />
@@ -195,7 +195,7 @@
       </ui:CommentOut.Body>
     </ui:CommentOut>
     <ui:CreateNewWorkbook WorkbookFile="{x:Null}" ConflictResolution="Replace" DisplayName="Create New Workbook" sap:VirtualizedContainerService.HintSize="486.6666666666667,176.66666666666666" sap2010:WorkflowViewState.IdRef="CreateNewWorkbook_1" SheetName="InvoiceResults" WorkbookPath="[reportPath]" />
-    <ui:WriteRange DataTable="[in_InvoiceReport]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="486.6666666666667,282" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="InvoiceResults" StartingCell="A1" WorkbookPath="[reportPath]" />
+    <ui:WriteRange DataTable="[in_InvoiceReport]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="486.6666666666667,282" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="InvoiceResults" StartingCell="A2" WorkbookPath="[reportPath]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="486.6666666666667,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[reportPath]" />
   </Sequence>
 </Activity>
