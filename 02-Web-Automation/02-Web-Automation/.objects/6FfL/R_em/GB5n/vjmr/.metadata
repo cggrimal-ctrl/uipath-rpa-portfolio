@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Products",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "vjmrvaOahEK0Evn8aPNRSA",
+  "Reference": "nhZvrya4wUuXZHGkWx1VNg/vjmrvaOahEK0Evn8aPNRSA",
+  "ParentRef": "nhZvrya4wUuXZHGkWx1VNg/GB5nIHP0i0KtQ84KjLStxg",
+  "Created": "2026-11-24T14:39:48.1845038Z",
+  "Updated": "2026-11-24T14:39:48.1845038Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.40.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
