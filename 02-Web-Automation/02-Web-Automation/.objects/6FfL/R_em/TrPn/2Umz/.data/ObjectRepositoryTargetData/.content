@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="HalIACy7mUCSlHddmZg2WA" Reference="nhZvrya4wUuXZHGkWx1VNg/2Umz2CDaVUCxAqj-ZHxkhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="MX7Vriv5dkOxcWCQuAkeEw" Reference="nhZvrya4wUuXZHGkWx1VNg/2Umz2CDaVUCxAqj-ZHxkhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.saucedemo.com/inventory.html" ContentHash="3HCvJEKIAEacyuRhmuPuJw" DesignTimeRectangle="463, 506, 1635, 1179" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='inventory_list' parentid='inventory_container' tag='DIV' /&gt;" Guid="fb24ae99-ef39-4bdb-9f07-00df2b163bc8" Reference="nhZvrya4wUuXZHGkWx1VNg/2Umz2CDaVUCxAqj-ZHxkhw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Swag Labs' /&gt;" SearchSteps="Selector" Version="V6">
-      <imageRef attrName="InformativeScreenshot" originalValue="d485a00dbdd740390a0cdd4b502fcb44.jpg" xmlns="">06xLzuXjDkkWdl-4hlmrnFA</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.saucedemo.com/inventory.html" ContentHash="HalIACy7mUCSlHddmZg2WA" DesignTimeRectangle="463, 506, 1635, 1179" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='inventory_list' parentid='inventory_container' tag='DIV' /&gt;" Guid="f2ad0923-085a-4d50-8e19-451646768b48" Reference="nhZvrya4wUuXZHGkWx1VNg/2Umz2CDaVUCxAqj-ZHxkhw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Swag Labs' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="d485a00dbdd740390a0cdd4b502fcb44.jpg" xmlns="">00J7FTfeToEmKP-ZPMQUd1Q</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">ExtractDataGeneric</x:String>
     <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
-	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='New column 0'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='ProductName'&gt;
 		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
 		&lt;ValidationErrorMessage /&gt;
 		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
 		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
 		&lt;Format xsi:type='TextColumnFormat' /&gt;
 	&lt;/Column&gt;
-	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='New column 1'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Price'&gt;
 		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
 		&lt;ValidationErrorMessage /&gt;
 		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
